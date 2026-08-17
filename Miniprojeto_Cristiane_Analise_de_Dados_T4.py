@@ -259,3 +259,54 @@ df.to_csv(
 )
 
 print("\nBase limpa salva com sucesso!")
+
+# =========================================================
+# Conclusões
+# =========================================================
+
+print("\n" + "="*60)
+print("CONCLUSÕES")
+print("="*60)
+
+print("""
+
+RESUMO
+
+- A planilha contém aproximadamente 830 mil registros.
+
+- Foram identificadas quatro colunas totalmente vazias,
+  que foram removidas.
+
+- Foram encontrados registros duplicados,
+  eliminados durante a limpeza.
+
+- A coluna DATA foi convertida para datetime,
+  permitindo análises temporais.
+
+- Os agrupamentos permitiram identificar os gêneros
+  e categorias com maior volume de compras.
+
+- Criei gráficos para visualização das análises, que foram salvos na pasta output.  
+
+
+ETAPAS 
+
+- Importação das bibliotecas
+
+- Leitura da base de dados
+
+- Análise inicial
+
+- Limpeza da base
+
+- Estatística descritiva
+
+- Agrupamentos
+
+- Gráficos
+
+- Exportação da base limpa
+
+- Conclusões
+
+""")
